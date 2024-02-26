@@ -1,0 +1,50 @@
+﻿[
+  {
+    "id": 1,
+    "image": "https://www.blackburnguitarlessons.co.uk/wp-content/uploads/2011/01/guitarlessons4.jpg",
+    "contentName": "Guitar",
+    "description": "full guitar playing program",
+    "price": 100,
+    "usersRating": "5",
+    "level": "4",
+    "program": [
+      "base knowladge",
+      "achords",
+      "blues",
+      "rock",
+      "acoustic guitar"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://www.lanemusic.com/wp-content/uploads/2021/12/istockphoto-1129332575-612x612-1.jpg",
+    "contentName": "Piano",
+    "description": "full guitar playing program",
+    "price": 100,
+    "usersRating": "5",
+    "level": "4",
+    "program": [
+      "base knowladge",
+      "achords",
+      "blues",
+      "rock",
+      "acoustic guitar"
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://www.thedwstore.com/cdn/shop/products/1138503_1_grande.jpg?v=1571264543",
+    "contentName": "Drums",
+    "description": "full guitar playing program",
+    "price": 100,
+    "usersRating": "5",
+    "level": "4",
+    "program": [
+      "base knowladge",
+      "achords",
+      "blues",
+      "rock",
+      "acoustic guitar"
+    ]
+  }
+]

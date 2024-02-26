@@ -1,0 +1,54 @@
+﻿@model CourseCard;
+
+@{
+    ViewData["Title"] = "Courses";
+}
+
+
+<style>
+    .name{
+        font-size:34px;
+    }
+    .descrip{
+        font-size:24px;
+    }
+
+    .mainInfo{
+        background-color: pink;
+
+    }
+    .program{
+        background:#c4c4c4;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .info{
+    display:flex;
+
+    }
+</style>
+
+<div class="mainInfo">
+    <p class="name">@Model.ContentName</p>
+    <p class="descrip">@Model.Description</p>
+</div>
+<img src="@Model.Image" />
+<div class="info">
+    <p>Program: </p>
+    <ul>
+        @foreach (var programItem in Model.Program)
+        {
+            <span class="program">@programItem</span>
+        }
+    </ul>
+    
+    <p>@Model.Price</p>
+    <p>@Model.Level</p>
+    <p>@Model.UsersRating</p>
+</div>
+
+<form action="https://localhost:7298/Home/Login" method="post">
+    <label for="add coupon"></label>
+    <input type="text" name="coupon" id="coupon" />
+<button type="submit">accept</button>
+</form>
